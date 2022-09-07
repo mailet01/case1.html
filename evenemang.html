@@ -7,35 +7,55 @@
     <title>evenemang</title>
 </head>
 <body>
-    
+<nav>
+    <a href="landskap.html">en sida om södermanland</a> | <a href="galleri">Galleri</a> | <a href="index.html">Om mig</a> 
+</nav>    
 <h1>Evenemang</h1>
-<p>Dags att anmäla dig till Stockholm Spelfestival. Dtta är ett utmärkt tillfälle att få testa olika typer av spel så som tv-spel och datorspel m.m. Anmäl dig 
+<p>Dags att anmäla dig till Stockholm Spelfestival. Detta är ett utmärkt tillfälle att få testa olika typer av spel så som tv-spel och datorspel m.m. Anmäl dig på formuläret nedan:
 
 </p>
-<form action="contact.html" method="get">
+<form action="evenemang.html" method="get">
 
     <p>
         <label for="firstname">Ditt förnamn</label><br>
-        <input type="text" name="firstname" id="firstname" placeholder="ange förnamn">
+        <input type="text" name="Firstname" id="Firstname" placeholder="Ange förnamn">
     </p>
 
 <p>
     <label>
-     Ditt efternamn: <br></efternamn:br> <input type="text" name="lastname" id="lastname">
+     Ditt efternamn: <br></Efternamn:br> <input type="text" name="Lastname" id="Lastname">
     </label>
 </p>
+</form>
 <form action="evenemang.html"method="post">
 
 <p>
-    <label> ange e-postadress
-        
+    <label> Ange e-postadress
+<input type="email" name="e-mail" id="e-mail">        
 </p>
 
 </form>
     
+<form action="evenemang.html" method="get">
 
-</p>
+<h2>Har du några allergier?</h2>
+
+
+<label>
+    <input type="radio" name="Ja" id="Ja"> Ja
+    </label>
+    
+    <label>
+        <input type="radio" name="Nej" id="Nej"> Nej
+   </label>
+<br>
+<textarea name="Info" id="Info" cols="30" rows="10"></textarea>
+<h3>Något särskilt vi behöver veta om dig?</h3><br>
+<textarea name="Info" id="Info" cols="30" rows="10"></textarea>
+<input type="submit" value="Skicka">
 </form>
+
+
 
 
 
